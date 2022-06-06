@@ -1,0 +1,17 @@
+proxies:
+  default:
+    gateway: "https://gateway-ccd.aat.platform.hmcts.net"
+    data-store: "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
+    definition-store: "http://ccd-definition-store-api-aat.service.core-compute-aat.internal"
+    user-profile: "http://ccd-user-profile-api-aat.service.core-compute-aat.internal"
+    case-document-access: "http://ccd-case-document-am-api-aat.service.core-compute-aat.internal"
+    role-assignment: "http://am-role-assignment-service-aat.service.core-compute-aat.internal"
+    case-access: "http://aac-manage-case-assignment-aat.service.core-compute-aat.internal"
+  nfd:
+    gateway: "http://gateway-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
+    data-store: "http://ccd-data-store-api-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
+    definition-store: "http://ccd-definition-store-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
+    user-profile: "http://ccd-user-profile-api-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
+    case-document-access: "http://ccd-user-profile-api-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
+    role-assignment: "http://am-role-assignment-service-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
+    case-access: "http://aac-nfdiv-case-api-pr-1929.service.core-compute-preview.internal"
